@@ -1,0 +1,26 @@
+.quoteBg{
+	height: 757px;
+	background-image: url(../img/backgrounds/quoteBg.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+.quoteBg{
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		width: 50%;
+		display: block;
+		background-color: #835fa8;
+		top: 0;
+		left: 0;
+		height: 60%;
+		z-index: -1;
+	}
+}
+.quote__content{
+	height: 465px;
+	padding-top: 85px;
+}

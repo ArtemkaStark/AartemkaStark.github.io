@@ -1,0 +1,78 @@
+.update__video img{
+	width: 100%;
+	height: 461px;
+	display: block;
+}
+.update__video{
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		display: block;
+		background-image: url(../img/icons/play-ico.png);
+		width: 85px;
+		height: 56px;
+		top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    margin: auto;
+	    cursor: pointer;
+	}
+}
+.purpleBg{
+	position: relative;
+	&::after{
+		content: '';
+		display: block;
+		width: 100%;
+		height: 461px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #835fa8;
+		z-index: -1;
+	}
+}
+.update__date {
+	padding-top: 75px;
+	color: #fff;
+	small{
+		font-size: 12px;
+	}
+}
+.update__text {
+	font-size: 32px;
+	line-height: 44px;
+	color: #fff;
+	font-weight: 300;
+	p{
+		margin: 0;
+	}
+}
+.update__container{
+	margin-left: 55px;
+}
+.pubslish__author {
+	padding-top: 32px;
+}
+.pubslish__author-img img {
+	width: 59px;
+	height: 59px;
+	border-radius: 100px;
+}
+.pubslish__author-name {
+	margin-top: -45px;
+    margin-left: 80px;
+    color: #fff;
+}
+.update__latestNews span{
+	background: #232323;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 0;
+    transition: color 0.2s;
+    &:hover{
+    	color: #835fa8;
+    }
+}

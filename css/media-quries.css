@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px){
+	.container{
+		width: 910px;
+		margin: 0 auto;
+	}
+	.container__right{
+		overflow: hidden;
+	}
+	#duch::before{
+		left: 360px;
+	}
+	.duch__desc-heading{
+		padding-top: 40px;
+	}
+	.advantage__boxItem-subtitle{
+		font-size: 17px;
+	}
+	.advantage__boxItem-title{
+		font-size: 27px;
+	}
+	.update__date{
+		padding-top: 50px;
+	}
+	.update__text{
+		padding-top: 0;
+		font-size: 30px;
+	}
+	.quote__content{
+		padding-top: 85px;
+	}
+	.discussions__text{
+		font-size: 12px;
+		padding-top: 5px;
+	}
+	.discussions__valueComments span::before{
+		top: -7px;
+	}
+	.designed__img{
+		padding-top: 63px;
+	}
+	.getInTouch__boxItem-form input[type="text"]{
+		width: 350px;
+	}
+}
+@media screen and (max-width: 768px){
+	.header__nav{
+		display: none;
+	}
+	#burger {
+		display: flex;
+	}
+	.mobile__nav{
+		background: rgb(51, 51, 51);
+    	text-align: center;
+    	text-transform: uppercase;
+	}
+	.mobile__nav li{
+		padding-top: 15px;
+		padding-bottom: 15px
+	}
+}

@@ -1,0 +1,106 @@
+header{
+    background-image: url(../img/backgrounds/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 867px;
+    color: #ffffff;
+}
+.header__components{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 85px;
+    margin-right: 85px;
+    align-items: center;
+    padding-top: 50px;
+}
+.header__nav{
+    ul{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+    li{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-right: 60px;
+        color: darkwhite;
+        font-weight: bold;
+    }
+}
+#burger{
+    width: 98%;
+    padding: 8.5px 0 7.5px 2%;
+    span{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        margin: 8px;
+        width: 30px;
+        height: 1px;
+        z-index: 999;
+        background-color: #fff;
+    }
+    a{
+        display: block;
+        width: 70px;
+        cursor: pointer;
+    }
+}
+#mobile__nav{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+    background: #232323;
+    flex-direction: column;
+    a{
+        font-size: 1.3em;
+        color: #C3C3C3;
+        font-weight: lighter;
+        letter-spacing: 1px;
+    }
+    li{
+        margin: 5% 5%;
+    }
+    ul{
+        padding: 5% 0;
+    }
+}
+#burger{
+    display: none;
+}
+#mobile__nav{
+    display: none;
+}
+.header__heading{
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 270px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 90px;
+}
+.header__title{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+.pull-right{
+    display: flex;
+    align-items: center;
+}
+.header__btnBuy button{
+    background: #835fa8;
+    border: none;
+    color: #fff;
+    padding: 15px 31px;
+    border-radius: 100px;
+}

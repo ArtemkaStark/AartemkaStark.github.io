@@ -1,0 +1,32 @@
+.stage__bg{
+    height: 535px;
+    background: #2b303b;
+}
+.stage__boxItems{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    padding-top: 85px;
+}
+.stage__boxItem{
+    margin-right: 40px;
+    &:last-child{
+    margin-right: 0;
+    }
+}
+.stage__boxItem-title{
+    & p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    }
+    & span{
+        color: #364658;
+    }
+}
+.stage__boxItem-description{
+    color: #8c949e;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+}
